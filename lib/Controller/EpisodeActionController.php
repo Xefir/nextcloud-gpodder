@@ -69,7 +69,7 @@ class EpisodeActionController extends Controller {
 	}
 
 	/**
-	 * @param array $data
+	 * @param array $data List of episodes actions from http request to filter
 	 * @return array $episodeActionsArray
 	 */
 	public function filterEpisodesFromRequestParams(array $data): array {
@@ -77,7 +77,7 @@ class EpisodeActionController extends Controller {
 	}
 
 	/**
-	 * @param array $data
+	 * @param array $data List of episodes actions from http request to filter
 	 * @return array $episodeActionsArray
 	 */
 	public function filterOnlyPlays(array $data): array {
